@@ -1,0 +1,260 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p, span {
+    color: #ffffff;
+}
+
+h1 {
+    color: #333333;
+    font-size: 28px;
+}
+
+h2 {
+    color: #333333;
+    font-size: 22px;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0px 10px 0px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #000000;
+}
+
+.borda-preta {
+    border: solid 1px #000000;
+}
+
+button {
+    background-color: #000000;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(255,196,48);
+}
+
+::placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+::-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.topo {
+    width: 100%;
+    background-color: rgb(255,196,48);
+    position: absolute;
+    padding: 20px 0px 10px 0px;
+}
+
+.logo {
+    width: 50px;
+    float: left;
+    margin-left: 40px;
+}
+
+.menu {
+    float: right;
+    margin-right: 40px;
+}
+
+.menu li {
+    display: inline;
+    float: left;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 14px 16px;
+    color: black;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.conteudo-destaque {
+    width: 100%;
+    height: 100%;
+    min-height: 800px;
+}
+
+.conteudo-pagina {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.titulo-pagina {
+    padding: 70px 0px 10px 0px;
+    margin-bottom: 10px;
+    background-color: rgb(255,196,48);
+    text-align: center;
+}
+
+.informacao-pagina {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.informacao-pagina p{
+    color: #333;
+}
+#text-span{ 
+    text-align: center;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.rodape {
+    width: 100%;
+    padding-top: 5%;
+}
+
+.redes-sociais, .area-contato, .localizacao {
+    width: 33.333%;
+    border-top:solid 1px #ffffff;
+    float: left;
+    text-align: center;
+    background-color: black;
+    height: 200px;
+}
+
+.redes-sociais, .area-contato, .localizacao, p, span {
+    color: #ffffff;
+    padding-top: 1%;
+}
+
+.redes-sociais img {
+    margin: 0px 15px 0px 15px;
+    padding-top: 7%;
+}
+
+.table-bordered{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+:root {
+    --text-light: #ffffff;
+    --bg-primary: #000000;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    padding: 10px;
+}
+
+.wrapper-title {
+    text-align: center;
+    margin: 30px 0 20px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.services-item {
+    width: 30%;
+    height: 350px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.services-item:hover {
+    border: transparent;
+    box-shadow: 1px 1px 10px #ccc;
+}
+
+.services-item i {
+    color: #4e5fbe;
+    font-size: 50px;
+}
+
+.services-title {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.services-text {
+    text-align: center;
+    line-height: 28px;
+}
+
+.services-textTwo {
+    text-align: center;
+    line-height: 27px;
+}
+
+.portfolio {
+    background-color: var(--bg-primary);
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.portfolio-image {
+    width: 20%;
+    background-color: var(--text-light);
+    padding: 10px 0px 20px 10px;
+    transition: .5s;
+}
+
+.portfolio-image:hover {
+    transform: rotate(0);
+}
+
+.portfolio-image img {
+    width: 97%;
+    cursor: pointer;
+}
+
+.rotation-left {
+    transform: rotate(-15deg);
+}
+
+.rotation-right {
+    transform: rotate(15deg);
+}
